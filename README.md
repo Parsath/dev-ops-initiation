@@ -2,4 +2,4 @@
 
 ## Description
 
-This is a repository created with the sole goal to initiate myself to DevOp
+This is a repository created with the sole goal to initiate myself to DevOps.
