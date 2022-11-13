@@ -44,6 +44,7 @@ pipeline {
                 sh "mvn sonar:sonar -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.login=$SONAR_LOGIN -Dsonar.password=$SONAR_PASSWORD"
             }
         }
+        // build and push artifact to nexus with login
         stage('Deploy to Nexus') {
               steps {
                 script {
